@@ -64626,8 +64626,7 @@ $S:0}
 A.aVi.prototype={
 $0(){var s,r,q,p,o,n,m,l,k,j=null,i=this.a,h=i.d
 if(J.e(h.ch.gk(0),!0))return B.fc
-else{h=h.ay
-if(h.gq(0)===0)return A.cM(A.x8("assets/json/no_data.json",j,j),j,j)}s=this.b
+s=this.b
 r=t.w
 q=10*(A.p(s,j,r).w.a.a<1024?0.3:0.5)
 A.p(s,j,r).toString
@@ -64644,7 +64643,8 @@ n=A.a([B.l7],n)
 if(!(A.p(s,j,r).w.a.a<1024))n.push(B.a_a)
 if(!(A.p(s,j,r).w.a.a<1024))n.push(B.a_f)
 if(!(A.p(s,j,r).w.a.a<1024))n.push(B.a_e)
-q.push(A.aa(j,A.aU(n,B.H,B.F,B.E,j),B.D,j,j,new A.aC(B.L,j,j,p,j,j,B.P),j,j,j,new A.a6(k,l,k,l),new A.a6(m,o,m,o),j,j,j))}q.push(A.x5(new A.aVh(i),J.bw(h.gk(0)),B.aG,B.e5,!0))
+q.push(A.aa(j,A.aU(n,B.H,B.F,B.E,j),B.D,j,j,new A.aC(B.L,j,j,p,j,j,B.P),j,j,j,new A.a6(k,l,k,l),new A.a6(m,o,m,o),j,j,j))}h=h.ay
+q.push(h.gq(0)===0?A.cM(A.x8("assets/json/no_data.json",j,j),j,j):A.x5(new A.aVh(i),J.bw(h.gk(0)),B.aG,B.e5,!0))
 return A.b_(q,B.H,B.F,B.E)},
 $S:75}
 A.aVg.prototype={
